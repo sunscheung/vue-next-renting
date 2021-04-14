@@ -28,7 +28,7 @@ export default {
 @import 'src/assets/css/constant.less';
 .house-detail-desc {
   background-color: white;
-  padding: $margin;
+  padding: @margin;
   font-size: 14px;
   p {
     margin-bottom: 6px;
