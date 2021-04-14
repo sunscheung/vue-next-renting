@@ -61,7 +61,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .news-swiper {
   height: 100%;
   overflow: hidden;

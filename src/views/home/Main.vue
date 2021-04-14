@@ -113,7 +113,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .home {
   .floor-container {
     height: 100vh;

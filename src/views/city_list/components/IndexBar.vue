@@ -97,7 +97,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .index-bar {
   overflow-y: scroll;
   height: 100%;

@@ -106,7 +106,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .house-detail-panorama {
   height: 280px;
   width: 100%;

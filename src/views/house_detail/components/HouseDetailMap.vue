@@ -29,10 +29,10 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@import 'src/assets/css/constant.scss';
+<style lang="less" scoped>
+@import 'src/assets/css/constant.less';
 .house-detail-map {
-  padding: $margin;
+  padding: @margin;
   background-color: white;
   &-title {
     font-size: 16px;

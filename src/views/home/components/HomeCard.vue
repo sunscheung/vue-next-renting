@@ -12,7 +12,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .home-card {
   background-color: white;
   height: 32px;

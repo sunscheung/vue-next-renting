@@ -86,8 +86,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@import 'src/assets/css/constant.scss';
+<style lang="less" scoped>
+@import 'src/assets/css/constant.less';
 .house-detail {
   position: absolute;
   top: 0;
@@ -112,7 +112,7 @@ export default {
       }
 
       &-active {
-        background-color: $mainColor !important;
+        background-color: @mainColor !important;
       }
     }
   }

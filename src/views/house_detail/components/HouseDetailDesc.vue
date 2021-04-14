@@ -24,11 +24,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@import 'src/assets/css/constant.scss';
+<style lang="less" scoped>
+@import 'src/assets/css/constant.less';
 .house-detail-desc {
   background-color: white;
-  padding: $margin;
+  padding: @margin;
   font-size: 14px;
   p {
     margin-bottom: 6px;

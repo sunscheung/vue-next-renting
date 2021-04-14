@@ -201,7 +201,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .map-main {
   height: 100%;
   #map-container {

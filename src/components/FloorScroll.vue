@@ -242,7 +242,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style scoped lang="less">
 .lgd-floor {
   height: 100vh;
   width: 100vw;

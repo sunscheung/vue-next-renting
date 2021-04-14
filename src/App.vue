@@ -56,7 +56,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style scoped lang="less">
 #app {
   background-color: white;
   // push页面时：新页面的进入动画
