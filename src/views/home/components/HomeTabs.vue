@@ -17,8 +17,8 @@
 </template>
 
 <script>
-import { getTabs } from '/@api/house';
-import HomeRoomList from '/@components/RoomList.vue';
+import { getTabs } from '../../../api/house';
+import HomeRoomList from '../../../components/RoomList.vue';
 export default {
   name: 'HomeTabs',
   components: {
@@ -42,4 +42,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="less" scoped></style>

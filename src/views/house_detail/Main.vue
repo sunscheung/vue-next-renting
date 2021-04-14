@@ -42,8 +42,8 @@ import HouseDetailSwiper from './components/HouseDetailSwiper.vue';
 import HouseDetailPanorama from './components/HouseDetailPanorama.vue';
 import HouseDetailDesc from './components/HouseDetailDesc.vue';
 import HouseDetailMap from './components/HouseDetailMap.vue';
-import HomeRoomList from '/@components/RoomList.vue';
-import { getHouse } from '/@api/house';
+import HomeRoomList from '../../components/RoomList.vue';
+import { getHouse } from '../../api/house';
 export default {
   name: 'HouseDetail',
   components: {
@@ -86,8 +86,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@import 'src/assets/css/constant.scss';
+<style lang="less" scoped>
+@import 'src/assets/css/constant.less';
 .house-detail {
   position: absolute;
   top: 0;
@@ -112,7 +112,7 @@ export default {
       }
 
       &-active {
-        background-color: $mainColor !important;
+        background-color: @mainColor !important;
       }
     }
   }

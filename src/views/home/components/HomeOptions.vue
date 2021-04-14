@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { getOptions } from '/@api/options';
+import { getOptions } from '../../../api/options';
 import HomeOptionsItem from './HomeOptionsItem.vue';
 export default {
   name: 'HomeOptions',
@@ -46,7 +46,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .home-options {
   padding-top: 26px;
   background-color: white;

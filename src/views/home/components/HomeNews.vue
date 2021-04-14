@@ -11,8 +11,8 @@
 
 <script>
 import dayjs from 'dayjs';
-import { getNews } from '/@api/news';
-import NewsSwiper from '/@components/NewsSwiper.vue';
+import { getNews } from '../../../api/news';
+import NewsSwiper from '../../../components/NewsSwiper.vue';
 export default {
   name: 'HomeNews',
   components: {
@@ -35,7 +35,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .home-news {
   display: flex;
   background-color: white;

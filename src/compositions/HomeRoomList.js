@@ -1,5 +1,5 @@
 import { ref } from 'vue';
-import { getList } from '/@api/house';
+import { getList } from '../api/house';
 
 export default function initHomeRoomList(props) {
   const pageSize = ref(5);

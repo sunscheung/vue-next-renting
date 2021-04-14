@@ -18,7 +18,7 @@
 
 <script>
 import { Swiper } from 'swiper';
-import { nextTick } from 'vue';
+// import { nextTick } from 'vue';
 
 export default {
   name: 'NewsSwiper',
@@ -61,7 +61,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .news-swiper {
   height: 100%;
   overflow: hidden;

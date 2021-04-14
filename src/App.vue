@@ -25,7 +25,7 @@ export default {
     $route(to, from) {
       // 此处是一个 vue 3.0.2 版本的错误：https://github.com/vuejs/vue-next/issues/2550
       // 错误的具体原因可以查看此 bug 修复提交 ：https://github.com/vuejs/vue-next/pull/2551
-      const arr = [].concat(this.virtualTaskStack);
+      let arr = [].concat(this.virtualTaskStack);
       if (!this.isOnce) {
         arr.push(to.name);
         this.virtualTaskStack = [].concat(arr);
@@ -56,7 +56,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style scoped lang="less">
 #app {
   background-color: white;
   // push页面时：新页面的进入动画

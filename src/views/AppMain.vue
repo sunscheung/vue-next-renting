@@ -42,7 +42,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="less" scoped>
 .app-main {
   height: 100vh;
   .content {

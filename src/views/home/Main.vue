@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import FloorScroll from '/@components/FloorScroll.vue';
+import FloorScroll from '../../components/FloorScroll.vue';
 import HomeNavBar from './components/HomeNavBar.vue';
 import HomeOptions from './components/HomeOptions.vue';
 import HomeNews from './components/HomeNews.vue';
@@ -113,7 +113,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .home {
   .floor-container {
     height: 100vh;

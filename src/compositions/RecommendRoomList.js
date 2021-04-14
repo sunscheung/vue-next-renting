@@ -1,5 +1,5 @@
 import { ref, onMounted } from 'vue';
-import { getAreaRecommend } from '/@api/map';
+import { getAreaRecommend } from '../api/map';
 
 export default function initRecommendRoomList(props) {
   const list = ref([]);

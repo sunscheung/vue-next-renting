@@ -17,9 +17,9 @@
 
 <script>
 import RoomItem from './RoomItem.vue';
-import initHomeRoomList from '/@compositions/HomeRoomList';
-import initMapRoomList from '/@compositions/MapRoomList.js';
-import initRecommendRoomList from '/@compositions/RecommendRoomList.js';
+import initHomeRoomList from '../compositions/HomeRoomList';
+import initMapRoomList from '../compositions/MapRoomList.js';
+import initRecommendRoomList from '../compositions/RecommendRoomList.js';
 export default {
   name: 'RoomList',
   components: {
@@ -56,7 +56,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .room-list {
   font-size: 16px;
 }

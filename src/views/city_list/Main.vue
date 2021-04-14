@@ -20,7 +20,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .city-list {
   position: absolute;
   top: 0;

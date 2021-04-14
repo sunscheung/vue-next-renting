@@ -1,4 +1,4 @@
-import { getAMap, getLocation } from '/@utils/map.js';
+import { getAMap, getLocation } from '../utils/map.js';
 
 export function initDriving(el, toLnglat, onMapClick) {
   return new Promise(async (resolve, reject) => {

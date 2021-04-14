@@ -32,10 +32,10 @@ const houseMapStyle = {
   backgroundColor: 'rgba(38, 206, 151 , 0.9)',
   color: 'white'
 };
-import { getArea } from '/@api/map';
-import { getAMap } from '/@utils/map.js';
-import unit from '/@utils/unit.js';
-import RoomList from '/@components/RoomList.vue';
+import { getArea } from '../../api/map';
+import { getAMap } from '../../utils/map.js';
+import unit from '../../utils/unit.js';
+import RoomList from '../../components/RoomList.vue';
 
 let AMap,
   map = null;
@@ -201,7 +201,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .map-main {
   height: 100%;
   #map-container {

@@ -177,10 +177,10 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@import 'src/assets/css/constant.scss';
+<style lang="less" scoped>
+@import 'src/assets/css/constant.less';
 .home-nav-bar {
-  background-color: $mainColor;
+  background-color: @mainColor;
   position: fixed;
   width: 100%;
   z-index: 9;
